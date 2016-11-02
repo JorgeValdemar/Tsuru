@@ -4,14 +4,51 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: #06094f;
+}
+
+nav {
+    float: left;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin: 0px;
+    border: 1px solid #2e2e2e;
+    padding: 0px;
+    background-color: #5e67f2;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    padding: 7px 9px;
+    color: #5e67f2;
+    background-color: #06094f;
+    border: 1px solid #5e67f2;
+}
 
 
+h1, h2, h3 {
+    color: #5e67f2;
+}
 
-
-
-
-
-
+.logo-topo {
+    float:left; 
+    max-width: 160px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
 
 
 
