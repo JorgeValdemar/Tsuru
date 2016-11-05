@@ -80,3 +80,14 @@ h4 {
     margin-top: 24px; 
     margin-bottom: 34px;
 }
+
+.parsley-error {
+    border-color: #e55;
+    background-color: #fdd;
+}
+
+.parsley-success {
+    border-color: #5e5;
+    background-color: #dfd;
+}
+
