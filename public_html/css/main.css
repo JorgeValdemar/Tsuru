@@ -8,6 +8,11 @@ body {
     padding-top: 0px;
     padding-bottom: 20px;
     color: #06094f;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 18px;
 }
 
 nav {
@@ -38,8 +43,12 @@ nav ul li:hover {
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: #5e67f2;
+}
+
+h4 {
+    margin: 20px 0;
 }
 
 .logo-topo {
@@ -50,10 +59,24 @@ h1, h2, h3 {
     margin-top: 40px;
 }
 
+.jumbotron {
+    background-color: #fff;
+}
 
+.cursor-pointer {
+    cursor: pointer;
+}
 
+.cadeira-1, cadeira-2 {
+    max-width: 40px;
+    float: left;
+}
 
+.cadeira-1 {
+    max-width: 230px;
+}
 
-
-
-
+.scroll-home ul, .scroll-home .btn {
+    margin-top: 24px; 
+    margin-bottom: 34px;
+}
